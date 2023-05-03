@@ -1,6 +1,14 @@
+import java.util.Scanner;
+
 public class Execicio1 {
     public static void main(String[] args) {
-        NumerodoUsuario(4);
+
+        Scanner Lernumero = new Scanner(System.in);
+        int valor ;
+        System.out.println("Digite seu peso: ");
+        valor= Lernumero.nextInt();
+        int soma=NumerodoUsuario(valor);
+        System.out.println("Resultado: " +soma);
     }
     public static int NumerodoUsuario (int valor) {
 
@@ -9,8 +17,6 @@ public class Execicio1 {
             soma = soma + i;
             System.out.println(i);
         }
-
-        System.out.println("Resultado: " + soma);
 
         return soma;
     }

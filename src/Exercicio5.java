@@ -1,8 +1,8 @@
 public class Exercicio5 {
     public static void main(String[] args) {
         String nome="Ana";
-        double salario=3199.99;
-        double vendas= 2000;
+        double salario=1200;
+        double vendas= 100;
         double comissao=(15*vendas)/100;
 
         double salarioFinal=salario+comissao;
